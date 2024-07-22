@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0.1rem 0.5rem rgb(32, 32, 32);
+}
+.loginhead {
+  text-align: center;
+  color: #09154b;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label,
+input,
+button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #09154b;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#error {
+  color: red;
+  margin-top: 10px;
+}
+.forgetpassword {
+  margin-left: 20px;
+}
+.emaill,
+.passwordd {
+  color: #09154b;
+}
+label {
+  color: #09154b;
+  margin-bottom: 10px;
+}
+.footer {
+  margin-bottom: -45px;
+  text-align: center;
+}
+input {
+  border-radius: 1rem;
+  margin-top: 5px;
+}
